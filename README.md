@@ -1,6 +1,4 @@
-# edulinq.org
-
-The homepage for EduLinq.
+# EduLinq
 
 ## Mission
 
