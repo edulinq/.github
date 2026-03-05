@@ -3,85 +3,102 @@
 Thanks for wanting to contribute!
 
 EduLinq is a nonprofit dedicated to making free and open source educational software.
+As a nonprofit, we are often limited in our resources/personnel,
+so make sure to be patient and flexible with response times.
 
 All code and resources contributed to a project become owned by the project under the respective license upon submission.
 
 ## Code of Conduct
 
-Follow
-./CODE_OF_CONDUCT.md
+Make sure to familiarize yourself with our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Reporting Issues
 
-Clearly state your issue.
-Be descriptive
+We do not have a general, strict template for reporting issues.
+We want to allow for flexibility when it comes to the type of issue and the domain it is submitted within.
+Try to follow this general guidance when submitting (or dealing with) issues:
 
-The required information changes depending on the specific needs,
-but some information generally required for bugs is:
- - Steps to reproduce the issue
- - Expected vs actual behavior
- - Your environment (OS, Python version, etc.) if applicable
+ - Be sure to clearly state your issue.
+   Be descriptive and concise.
+   The required information changes depending on the specific needs,
+   but some information generally required for bugs is:
+    - Steps to reproduce the issue.
+    - Expected vs actual behavior.
+    - Your environment (OS, language version, etc.) if applicable.
 
-Issues are not meant for arbitrary communication.
-See [the Discussion section](#discussion)
+ - Note that issues are not meant for arbitrary communication,
+   see [the Discussion section](#discussion) for guidance on that.
 
-Remember that the aims of the project may differ from your personal needs.
-So a contributor may not agree with the priority or need for an issue.
+ - Remember that the aims of the project may differ from your personal needs.
+   So, a contributor may not agree with the priority or need for an issue.
 
-Remember that this is open source and we have limited resources,
-so we may not address an issue as fast as you would like.
-In cases like this, a PR is great.
+ - Remember that this is open source and we have limited resources,
+   so we may not address an issue as fast as you would like.
+   In cases like this, submitting a PR yourself could help out.
 
-We don't do "dibs" on an issue.
-A PR is the best way to show others your interest in an issue.
-Conversely, if you clearly see someone working on an issue, don't try to "scoop" them.
-If it looks like an effort was abandoned, feel free to politely ask them if they are going forward with it.
+ - We don't call "dibs" on an issue.
+   A PR is the best way to show others your interest in an issue.
+   Conversely, if you clearly see someone working on an issue, don't try to "scoop" them.
+   If it looks like an effort was abandoned, feel free to politely ask them if they are going forward with it.
 
 ## Submitting a PR
 
-Thanks
+Thanks for wanting to contribute to our projects!
+Pull/Merge requests (and code reviews) are a fundamental part of Software Engineering.
+They can be very intimidating (especially to a new developer),
+but they are the type of thing that gets easier the more you do.
 
-A reviewer should strive to make things as easy as possible on the reviewer.
-You are using their time, so make sure to respect it.
+### General Guidance on PRs
 
-Ensure that the description is sufficient, but concise.
-Overly long PR descriptions waste the reviewer's time.
+ - Contributors should strive to make things as easy as possible on the reviewer.
+   You are using their time, so make sure to respect it.
 
-Keep in mind that PR comments are generally terse, but constructive.
-Try to read them with a positive outlook.
+ - Ensure that the description is sufficient, but concise.
+   Overly long PR descriptions waste the reviewer's time.
 
-You are responsible for ensuring that you have the legal right to submit all code/resources you present.
+ - Keep in mind that PR comments are generally terse, but constructive.
+   Try to read them with a positive outlook.
 
-General Process
- 1. Fork
- 2. Make branch for changes.
- 3. Implement fix, tests, and documentation.
- 4. Create branch for PR.
- 5. Create PR.
- 6. Request review.
+ - You are responsible for ensuring that you have the legal right to submit all code/resources you present.
+
+ - When you are ready for a new pass/re-review, make sure to explicitly let the reviewer know you are ready.
+   Often the PR system (like GitHub) may send out messages for every commit, so it can be hard to tell when the code is ready.
+   There will usually be a "Re-request Review" button you can use.
+
+ - Ensure that all comments are addressed before requesting another pass by a reviewer.
+   If a comment has been fully addressed, resolve it (via the resolve button) without further comments.
+   If a comment requires further discussion, then comment on it.
+   Keep in mind what things will look like for the reviewer.
+   When they re-review a PR, they should only see things that need action on their part.
+
+    - Note that this also applies when a reviewer asks a question in a comment,
+      and you agree with the premise of the question and make changes accordingly.
+      For example, if a review says: "Shouldn't this be 1?",
+      then you can just resolve if you agree that it should be 1 and you make that change.
+      Only comment if further discussion is required.
+
+ - Take your time.
+   Quality is strongly preferred over quantity.
+
+ - Review your own PR before asking for a (re)review.
+
+### Extra Advice for New Contributors
+
+For contributors that are new to PRs,
+here is the general procedure:
+ 1. Fork the target repo.
+ 2. Make a branch for changes (here we will call it `change-branch`).
+ 3. Implement your code, tests, and documentation. Make sure your code passes testing and CI.
+ 4. Review your code.
+ 5. Create a new branch for PR based on `change-branch` (here we will call it `pr-branch`).
+ 6. Create a PR using `pr-branch`.
  7. Wait patently for comments.
- 8. Address comments.
- 9. Do self review. Check style, Check tests, Check CI in fork.
- 10. GOTO 6.
- 11. Done!
-
-No need to comment on comments that require no further discussion.
-Keep in mind what things will look like for the reviewer.
-When they re-review a PR, they should only see things that need action on their part.
-So, all comments should be either resolved (via the resolve button), or commented on if further discussion is required.
-Also, reviewers may get an email for each comment you make.
-
-Note that this also applies when a reviewer asks a question in a comment,
-and you agree with the premise of the question and make changes accordingly.
-For example, if a review says: "Shouldn't this be 1?",
-then you can just resolve if you agree that it should be 1 and you make that change.
-Only comment if further discussion is required.
-
-Take your time.
-Quality is strongly preferred over quantity.
-Review your own PR before asking for a (re)review.
-
-When you are ready, request a re-review using the "Re-request Review" button (by the reviewer's name in GitHub).
+ 8. Address comments first in `change-branch`.
+ 9. Do a self review. Make sure to check style, test, and CI.
+ 10. Once your changes are looking good, merge them into `pr-branch`.
+ 11. Re-request a review (there is usually a button for this).
+ 12. If changes are requested, GOTO 7.
+ 13. Done! Update your fork.
 
 For new contributors, we have some additional rules:
  - At most 1 open PR at a time.
@@ -91,46 +108,39 @@ For new contributors, we have some additional rules:
 
 ## General Coding Style
 
-Differs based on language and project.
+The coding style we use will differ based on the language and project.
+Follow the rules of the specific project/repo you are in.
 
-Number 1 rule of style:
-Be consistent with existing code
+In general, follow these principles:
 
-Maintainability
- - readability
- - self documenting (code should be obvious)
- - not surprising
+ - Be consistent with existing code.
+ - Strive to write maintainable code that is:
+   - easy to read,
+   - self documenting,
+   - and not surprising.
 
 ## AI Tools
 
 We do not outright ban the use of AI coding tools.
-
-All code you submit is considered yours.
+However, it is important to remember that all code you submit is considered yours.
 You are responsible for all your code.
 You are expected to fully understand, explain, and justify all your own code.
 If we find that you are not acting responsibly with your own code, we may ban you.
 
-Wasting a reviewers time with low-quality code is against our code of conduct and can result in being banned.
+AI tools can make it very easy to do things like submit PRs,
+but wasting a reviewers time with low-quality code is against our code of conduct and can result in being banned.
 
 If you are using a coding tool and someone asks you about it,
 you should be honest and willing to disclose the tool, version, and how you used it.
 If you are not comfortable disclosing this information, then avoid using AI coding tools.
 
+Also be wary when using AI tools for text/conversations (e.g., emails, PR descriptions, issues, etc).
+AI will often generate a lot of text that is longer than necessary.
+Unnecessarily long conversations are generally against our [Code of Conduct](./CODE_OF_CONDUCT.md#try-to-be-concise).
+
 We always encourage learning.
 If you use AI tools, use them in a way that helps you learn, instead of taking away your learning opportunities.
 
-### AI-Generated Conversations
-
-Long conversations.
-Generally against our code of conduct.
-
-We tend to see it produce much longer text than necessary.
-It gives off a bad impression to have an overly long description where a short one would suffice.
-
-These generally just waste resources (also against our code of conduct).
-
 ## Discussion
 
-Discord
-
-Questions
+For discussion outside of GitHub, you can use our [Discord](https://discord.gg/xRxdbWqtWS).
