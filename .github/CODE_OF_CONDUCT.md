@@ -1,79 +1,75 @@
 # EduLinq Code of Conduct
 
-There are [many code of conducts](https://opensourceconduct.com/projects.html) in use for open source projects.
+*This document outlines the general principles that one should follow when participating in any event/space that EduLinq manages.*
 
-We can't hope to capture every possible protections, interactions, or nuance.
+There are [many code of conducts](https://opensourceconduct.com/projects.html) in use for open source projects
+(and now there is one more).
+The mere existence of many codes shows how we can't hope to capture every possible protections, interactions, or nuance in a single code.
+But, we can always do our best to be respectful and understanding,
+and try to encode those general values in a document.
 
-But, we can always do our best to be respectful and understanding.
-
-Our code of conduct may evolve over time,
-but at its core it represents the social contract around our interactions.
-
-This code is not exhaustive or complete.
-It distills our common understanding of a collaborative, shared environment and goals.
-We expect all members of the Apache community to follow it in spirit as much as in the letter,
-so that it can enrich all of us and the technical communities in which we participate.
-
-These are guidelines, not hard-and-fast rules.
-Do your best.
+Note that our code of conduct may evolve over time,
+and that the principles enumerated here are are guidelines, not hard-and-fast rules.
+Do your best to act in accordance with the spirit of these guidelines.
 
 Serious or repeat offenders may be temporarily or permanently banned from EduLinq resources.
 
-## Short Code of Conduct
+## Code of Conduct
 
-Don't be a jerk.
-Be respectful.
-If you have persisting problems, contact conduct@edulinq.org
+### You are Responsible for Your Contributions
 
-## Full Code of Conduct
+You should be able to stand behind every piece of code or resource that you contribute.
+Of course, we do not expect all code to be impossibly bug-free,
+but you should do your best to produce the highest quality code you can.
 
-Be respectful
+You are responsible for ensuring that you have the legal right to submit all code/resources you present.
+
+### Be Respectful
+
 Try to act with respect, compassion, and empathy towards everyone in accordance with reason.
-Respect other's time.
-Asking for help is inevitable, but ensure that your have done your due-diligence first.
-Be mindful of the work you leave for others.
 Insults or harassment are not acceptable.
 
-Act in good faith, and assume good faith from others
+### Act in Good Faith and Assume Good Faith from Others
+
 There are many differing ways to produce high-quality software,
-assume that others are working towards that same goal (even if they are approaching it from a different direction).
+assume that others are working towards that same goal as you
+(even if they are approaching it from a different direction).
 
-Be collaborative
-FOSS
-Ask for help when you need it, but remember to respect other's time.
-Promote collaboration
-Do your best to ask and answer questions.
-Prefer open communication, so others can learn from and join relevant discussions.
-Try to keep disagreements constructive.
+### Foster Collaboration
 
-Try to be concise
-Direct
-Flowery words don't help
-Short and direct can help non-native English speakers.
-Take time to choose words carefully rather than using many words that can be misconstrued.
+Do your best to promote a collaborative environment.
+Ask questions when you need to and do your best to answer the questions of others.
 
-Be responsible
-Responsible for your code.
-Mature
+When asking questions, be mindful to respect the time of others.
+Asking for help is an inevitable part of contributing,
+but ensure that your have done your due-diligence before asking for help.
 
-Always learning
-(Be inquisitive?)
-This means that sometimes we may favor a learning-based interaction instead of directly telling answers.
-Depends on the place and time.
+Prefer open communication methods (e.g., a forum post instead of a direct message)
+so that others can learn from and join relevant discussions.
 
-Patience
+Try to keep discussions and disagreements constructive and focused on the task at hand.
 
-Welcoming
+### Try to be Concise
 
+More text often means more work and more opportunities for misunderstanding.
+Try to be concise and direct with your communication, documentation, and code.
+Take your time to choose words carefully rather than using many words that may be misconstrued.
+
+### Never Stop Learning
+
+In addition to just collaborating,
+do your best to maintain a safe learning environment for everyone.
+We strive to always learn more and improve.
+
+### When Someone Breaks the Code
 
 If you encounter someone who is not adhering to these guidelines,
 try to politely point them to this code of conduct.
 Remember that someone may just be having a hard time or trouble communicating.
 
-If you have persisting problems, contact conduct@edulinq.org
+If you have persisting problems, contact [conduct@edulinq.org](mailto:conduct@edulinq.org).
 
-
-## Resources
+## Resources / Inspirations
 
 Below are some resources that we consulted and took inspiration from when writing our code of conduct:
  - https://opensourceconduct.com
