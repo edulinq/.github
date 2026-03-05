@@ -92,7 +92,7 @@ here is the general procedure:
  4. Review your code.
  5. Create a new branch for PR based on `change-branch` (here we will call it `pr-branch`).
  6. Create a PR using `pr-branch`.
- 7. Wait patently for comments.
+ 7. Wait patiently for comments.
  8. Address comments first in `change-branch`.
  9. Do a self review. Make sure to check style, test, and CI.
  10. Once your changes are looking good, merge them into `pr-branch`.
