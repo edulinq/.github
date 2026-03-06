@@ -58,6 +58,7 @@ but they are the type of thing that gets easier the more you do.
 
  - Keep in mind that PR comments are generally terse, but constructive.
    Try to read them with a positive outlook.
+   Receiving criticism on code can be tough at first, it gets easier over time.
 
  - You are responsible for ensuring that you have the legal right to submit all code/resources you present.
 
@@ -87,14 +88,14 @@ but they are the type of thing that gets easier the more you do.
 For contributors that are new to PRs,
 here is the general procedure:
  1. Fork the target repo.
- 2. Make a branch for changes (here we will call it `change-branch`).
- 3. Implement your code, tests, and documentation. Make sure your code passes testing and CI.
+ 2. Make a branch in your fork for the new changes (here we will call it `change-branch`).
+ 3. Implement your code, tests, and documentation in `change-branch`. Make sure your code passes testing and CI.
  4. Review your code.
- 5. Create a new branch for PR based on `change-branch` (here we will call it `pr-branch`).
+ 5. Create a new branch for your PR based on `change-branch` (here we will call it `pr-branch`).
  6. Create a PR using `pr-branch`.
  7. Wait patiently for comments.
  8. Address comments first in `change-branch`.
- 9. Do a self review. Make sure to check style, test, and CI.
+ 9. Do a self review. Make sure to check style, tests, and CI.
  10. Once your changes are looking good, merge them into `pr-branch`.
  11. Re-request a review (there is usually a button for this).
  12. If changes are requested, GOTO 7.
