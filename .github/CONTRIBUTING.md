@@ -81,6 +81,9 @@ but they are the type of thing that gets easier the more you do.
  - Take your time.
    Quality is strongly preferred over quantity.
 
+ - Do not submit an AI code review (e.g., having CoPilot do a pass on a PR).
+   If a reviewer chooses to use some AI tool, they may, but that is up to them.
+
  - Review your own PR before asking for a (re)review.
 
 ### Extra Advice for New Contributors
