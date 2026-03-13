@@ -53,10 +53,13 @@ Try to follow this general guidance when submitting (or dealing with) issues:
 
 ## Submitting a PR
 
+% lg1 - I'd be tempted to make this sentence more verbose
 Thanks for wanting to contribute to our projects!
+% lg1 - suggested add... it needs a bit of fine-tuning perhaps...
+The healthy open source software ecosystems thrive through contributions like yours.
 Pull/Merge requests (and code reviews) are a fundamental part of Software Engineering.
 They can be very intimidating (especially to a new developer),
-but they are the type of thing that gets easier the more you do.
+but they are the type of thing that gets easier the more you do them.
 
 ### General Guidance on PRs
 
@@ -74,7 +77,7 @@ but they are the type of thing that gets easier the more you do.
 
  - When you are ready for a new pass/re-review, make sure to explicitly let the reviewer know you are ready.
    Often the PR system (like GitHub) may send out messages for every commit, so it can be hard to tell when the code is ready.
-   There will usually be a "Re-request Review" button you can use.
+   There will usually be a "Re-request Review" button you can use to indicate that you PR is ready to be reviewed again.
 
  - Ensure that all comments are addressed before requesting another pass by a reviewer.
    If a comment has been fully addressed, resolve it (via the resolve button) without further comments.
@@ -91,7 +94,8 @@ but they are the type of thing that gets easier the more you do.
  - Take your time.
    Quality is strongly preferred over quantity.
 
- - Do not submit an AI code review (e.g., having CoPilot do a pass on a PR).
+ - % lg1 -- will it be totally clear what this means, aka the difference between an AI code review, and what it means for a reviewer to use it?  On the surface it sets up an asymmetry that pops out, that may not be necessary?   (hey why can the reviewer use AI but not the submitter?   I understand that that's a misread of what you mean, but as an outsider reading this first discussion of AI, that's sort of what it sounds like)
+   Do not submit an AI code review (e.g., having CoPilot do a pass on a PR).
    If a reviewer chooses to use some AI tool, they may, but that is up to them.
 
  - Review your own PR before asking for a (re)review.
@@ -138,18 +142,20 @@ In general, follow these principles:
 We do not outright ban the use of AI coding tools.
 However, it is important to remember that all code you submit is considered yours.
 You are responsible for all your code.
-You are expected to fully understand, explain, and justify all your own code.
-If we find that you are not acting responsibly with your own code, we may ban you.
+You are expected to fully understand, explain, and justify all your code.
+If we find that you are not acting responsibly with your code, we may ban you.
 
 AI tools can make it very easy to do things like submit PRs,
-but wasting a reviewers time with low-quality code is against our code of conduct and can result in being banned.
+but can waste a reviewers time with low-quality code.  
+% add linke to code of conduct, as done below?
+This is against our code of conduct and can result in being banned.
 
 If you are using a coding tool and someone asks you about it,
 you should be honest and willing to disclose the tool, version, and how you used it.
 If you are not comfortable disclosing this information, then avoid using AI coding tools.
 
 Also be wary when using AI tools for text/conversations (e.g., emails, PR descriptions, issues, etc).
-AI will often generate a lot of text that is longer than necessary.
+AI will often generate text that is much longer and more verbose than necessary.
 Unnecessarily long conversations are generally against our [Code of Conduct](./CODE_OF_CONDUCT.md#try-to-be-concise).
 
 We always encourage learning.
