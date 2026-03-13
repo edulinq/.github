@@ -2,6 +2,8 @@
 
 *This document outlines the general principles that one should follow when participating in any event/space that EduLinq manages.*
 
+% lg1 - I'd be tempted to move some of this later in the document, think about tightening it, and have it start with the more aspirational/positive part first.   I've put a new version below, as one alternative.   I'm tempted to just leave out the reference to other code of conducts, unless you want to specifically cite it and say that this code of conduct builds off of existing codes of conduct ?   Oh, you have that at the end, so I definitely don't think you need it again here.
+Original:
 There are [many code of conducts](https://opensourceconduct.com/projects.html) in use for open source projects
 (and now there is one more).
 The mere existence of many codes shows how we can't hope to capture every possible protections, interactions, or nuance in a single code.
@@ -14,11 +16,20 @@ Do your best to act in accordance with the spirit of these guidelines.
 
 Serious or repeat offenders may be temporarily or permanently banned from EduLinq resources.
 
+New:
+Our goal is to create a healthy and vibrate community of contributors, and we encourage folks to be respectful and understanding.  
+The principles enumerated here are are guidelines, not hard-and-fast rules, and may evolve over time.
+Do your best to act in accordance with the spirit of these guidelines.
+
+Serious or repeat offenders may be temporarily or permanently banned from EduLinq resources.
+
 ## Code of Conduct
 
 ### You are Responsible for Your Contributions
 
-You should be able to stand behind every piece of code or resource that you contribute.
+You should be able to stand behind every piece of code or resource that you contribute.  
+%lg1 - added
+By stand behind, we mean that you should be able to explain your code, e.g., what it does and why it does it.
 Of course, we do not expect all code to be impossibly bug-free,
 but you should do your best to produce the highest quality code you can.
 
