@@ -2,7 +2,12 @@
 
 Thanks for wanting to contribute!
 
-EduLinq is a nonprofit dedicated to making free and open source educational software.
+EduLinq is a nonprofit dedicated to making 
+% lg1 - since I used free in the second sentence, I'm taking it out here.
+%free and 
+open source educational software.
+% lg1 - I suggest adding the following sentence, a sentence about the mission.   I totally understand about not bloating things, nonetheless articulating the mission is useful to do multiple places imho.
+Our mission is to provide free, secure and private software for both students and instructors.
 As a nonprofit, we are often limited in our resources/personnel,
 so make sure to be patient and flexible with response times.
 
@@ -14,8 +19,13 @@ Make sure to familiarize yourself with our [Code of Conduct](./CODE_OF_CONDUCT.m
 
 ## Reporting Issues
 
-We do not have a general, strict template for reporting issues.
-We want to allow for flexibility when it comes to the type of issue and the domain it is submitted within.
+% lg1 - I think the following two sentence could be combined into one, I propose one below.   I'm not sure exactly what
+% 'domain it is submitted in means'; I changed it to submission domain, not sure if that works or not
+% We do not have a general, strict template for reporting issues.
+% We want to allow for flexibility when it comes to the type of issue and the domain it is submitted within.
+% lg1 - new sentence
+We want to allow for flexibility when it comes to issue types and submission domains, so we 
+do not have a strict template for reporting issues.
 Try to follow this general guidance when submitting (or dealing with) issues:
 
  - Be sure to clearly state your issue.
