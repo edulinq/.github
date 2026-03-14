@@ -2,12 +2,8 @@
 
 Thanks for wanting to contribute!
 
-EduLinq is a nonprofit dedicated to making 
-% lg1 - since I used free in the second sentence, I'm taking it out here.
-%free and 
-open source educational software.
-% lg1 - I suggest adding the following sentence, a sentence about the mission.   I totally understand about not bloating things, nonetheless articulating the mission is useful to do multiple places imho.
-Our mission is to provide free, secure and private software for both students and instructors.
+EduLinq is a nonprofit dedicated to making open source educational software.
+Our mission is to provide free, secure, and private software for both students and instructors.
 As a nonprofit, we are often limited in our resources/personnel,
 so make sure to be patient and flexible with response times.
 
@@ -19,13 +15,8 @@ Make sure to familiarize yourself with our [Code of Conduct](./CODE_OF_CONDUCT.m
 
 ## Reporting Issues
 
-% lg1 - I think the following two sentence could be combined into one, I propose one below.   I'm not sure exactly what
-% 'domain it is submitted in means'; I changed it to submission domain, not sure if that works or not
-% We do not have a general, strict template for reporting issues.
-% We want to allow for flexibility when it comes to the type of issue and the domain it is submitted within.
-% lg1 - new sentence
-We want to allow for flexibility when it comes to issue types and submission domains, so we 
-do not have a strict template for reporting issues.
+To allow for flexibility when it comes to issue types and submission contexts,
+we do not have a strict template for reporting issues.
 Try to follow this general guidance when submitting (or dealing with) issues:
 
  - Be sure to clearly state your issue.
@@ -46,17 +37,15 @@ Try to follow this general guidance when submitting (or dealing with) issues:
    so we may not address an issue as fast as you would like.
    In cases like this, submitting a PR yourself could help out.
 
- - We don't call "dibs" on an issue.
+ - We don't call "dibs" or reserve issues.
    A PR is the best way to show others your interest in an issue.
    Conversely, if you clearly see someone working on an issue, don't try to "scoop" them.
-   If it looks like an effort was abandoned, feel free to politely ask them if they are going forward with it.
+   If it looks like an effort was abandoned, feel free to politely ask them or an admin if they are going forward with it.
 
 ## Submitting a PR
 
-% lg1 - I'd be tempted to make this sentence more verbose
 Thanks for wanting to contribute to our projects!
-% lg1 - suggested add... it needs a bit of fine-tuning perhaps...
-The healthy open source software ecosystems thrive through contributions like yours.
+Healthy open source ecosystems depend on contributors like you.
 Pull/Merge requests (and code reviews) are a fundamental part of Software Engineering.
 They can be very intimidating (especially to a new developer),
 but they are the type of thing that gets easier the more you do them.
@@ -76,8 +65,8 @@ but they are the type of thing that gets easier the more you do them.
  - You are responsible for ensuring that you have the legal right to submit all code/resources you present.
 
  - When you are ready for a new pass/re-review, make sure to explicitly let the reviewer know you are ready.
-   Often the PR system (like GitHub) may send out messages for every commit, so it can be hard to tell when the code is ready.
-   There will usually be a "Re-request Review" button you can use to indicate that you PR is ready to be reviewed again.
+   Often the PR system (like GitHub) may send out messages for every commit, so it can be hard for a reviewer to tell when the code is ready.
+   There will usually be a "Re-request Review" button you can use to indicate that you are ready for another pass.
 
  - Ensure that all comments are addressed before requesting another pass by a reviewer.
    If a comment has been fully addressed, resolve it (via the resolve button) without further comments.
@@ -94,16 +83,16 @@ but they are the type of thing that gets easier the more you do them.
  - Take your time.
    Quality is strongly preferred over quantity.
 
- - % lg1 -- will it be totally clear what this means, aka the difference between an AI code review, and what it means for a reviewer to use it?  On the surface it sets up an asymmetry that pops out, that may not be necessary?   (hey why can the reviewer use AI but not the submitter?   I understand that that's a misread of what you mean, but as an outsider reading this first discussion of AI, that's sort of what it sounds like)
-   Do not submit an AI code review (e.g., having CoPilot do a pass on a PR).
-   If a reviewer chooses to use some AI tool, they may, but that is up to them.
+ - Do not submit an AI code review to your own PR (e.g., having CoPilot do a pass on a PR).
+   A reviewer may choose to use an AI tool to assist them with a review,
+   but a contributor should not submit reviews to their own code.
 
  - Review your own PR before asking for a (re)review.
 
 ### Extra Advice for New Contributors
 
 For contributors that are new to PRs,
-here is the general procedure:
+here is a general procedure you can follow:
  1. Fork the target repo.
  2. Make a branch in your fork for the new changes (here we will call it `change-branch`).
  3. Implement your code, tests, and documentation in `change-branch`. Make sure your code passes testing and CI.
@@ -117,6 +106,9 @@ here is the general procedure:
  11. Re-request a review (there is usually a button for this).
  12. If changes are requested, GOTO 7.
  13. Done! Update your fork.
+
+Note that the use of multiple branches is to avoid excess emails that can happen when you push changes to a branch with an open PR.
+It also gives more advanced users the opportunity to squash changes before the next PR pass.
 
 For new contributors, we have some additional rules:
  - At most 1 open PR at a time.
@@ -146,9 +138,8 @@ You are expected to fully understand, explain, and justify all your code.
 If we find that you are not acting responsibly with your code, we may ban you.
 
 AI tools can make it very easy to do things like submit PRs,
-but can waste a reviewers time with low-quality code.  
-% add linke to code of conduct, as done below?
-This is against our code of conduct and can result in being banned.
+but can waste a reviewer's time if the code is of low-quality.
+Not respecting a review's time is against our [Code of Conduct](./CODE_OF_CONDUCT.md#foster-collaboration) and can result in being banned.
 
 If you are using a coding tool and someone asks you about it,
 you should be honest and willing to disclose the tool, version, and how you used it.
