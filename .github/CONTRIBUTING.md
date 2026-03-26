@@ -80,6 +80,10 @@ but they are the type of thing that gets easier the more you do them.
       then you can just resolve if you agree that it should be 1 and you make that change.
       Only comment if further discussion is required.
 
+ - Some PR comments may be made once, but apply to multiple places in your code.
+   For example, a comment about style may apply to more than just the line it was made on.
+   Be sure to consider when a comment may apply elsewhere.
+
  - Take your time.
    Quality is strongly preferred over quantity.
 
