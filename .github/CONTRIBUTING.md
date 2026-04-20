@@ -11,7 +11,7 @@ All code and resources contributed to a project become owned by the project unde
 
 ## Code of Conduct
 
-Make sure to familiarize yourself with our [Code of Conduct](./CODE_OF_CONDUCT.md).
+Make sure to familiarize yourself with our [Code of Conduct](/.github/CODE_OF_CONDUCT.md).
 
 ## Reporting Issues
 
@@ -143,7 +143,7 @@ If we find that you are not acting responsibly with your code, we may ban you.
 
 AI tools can make it very easy to do things like submit PRs,
 but can waste a reviewer's time if the code is of low-quality.
-Not respecting a review's time is against our [Code of Conduct](./CODE_OF_CONDUCT.md#foster-collaboration) and can result in being banned.
+Not respecting a review's time is against our [Code of Conduct](/.github/CODE_OF_CONDUCT.md#foster-collaboration) and can result in being banned.
 
 If you are using a coding tool and someone asks you about it,
 you should be honest and willing to disclose the tool, version, and how you used it.
@@ -151,7 +151,7 @@ If you are not comfortable disclosing this information, then avoid using AI codi
 
 Also be wary when using AI tools for text/conversations (e.g., emails, PR descriptions, issues, etc).
 AI will often generate text that is much longer and more verbose than necessary.
-Unnecessarily long conversations are generally against our [Code of Conduct](./CODE_OF_CONDUCT.md#try-to-be-concise).
+Unnecessarily long conversations are generally against our [Code of Conduct](/.github/CODE_OF_CONDUCT.md#try-to-be-concise).
 
 We always encourage learning.
 If you use AI tools, use them in a way that helps you learn, instead of taking away your learning opportunities.
