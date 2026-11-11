@@ -84,6 +84,10 @@ but they are the type of thing that gets easier the more you do them.
    For example, a comment about style may apply to more than just the line it was made on.
    Be sure to consider when a comment may apply elsewhere.
 
+ - It is a common practice for reviewers to use [sed-style substitution commands](https://en.wikipedia.org/wiki/Sed#Substitution) to indicate changes they want in a line.
+   This quick, terse, and often familiar way to indicate precise changes.
+   For example, a comment of `s/foo/bar/` will indicate that you should change an instance "foo" on this line to "bar".
+
  - Take your time.
    Quality is strongly preferred over quantity.
 
